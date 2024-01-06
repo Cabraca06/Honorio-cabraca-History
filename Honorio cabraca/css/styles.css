@@ -1,0 +1,233 @@
+
+body{
+    background: #F6F8F9;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 21%, #E5EBEE 26%, #D7DEE3 52%, #B0BECF 84%);
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+              /* NAVEGADOR*/
+
+nav{ 
+    text-align: right;
+    background-color: #171717;
+    width: 100%;
+    height:80px;
+  }
+nav > h2{
+    float: left;
+    color: #e3e5e8;
+    margin-top: 30px;
+}
+  nav ul{
+     list-style: none;
+     display: inline-block;
+     padding:18px;
+  }
+  nav ul li{
+    float: left;
+    margin-top: 0px;
+}
+
+nav ul li a {
+    color: #fcfbfa;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+nav ul li a:hover{
+  background-color: #60666e;
+}
+
+              /* NAVEGADOR*/
+
+
+              /*IMAGEN*/
+ .titulo1{
+    text-align: center;
+}
+ .parrafo{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+ }
+ img {
+    display: block;
+	margin-left: auto;
+	margin-right:auto;
+    width: 350px;
+ }
+                /*IMAGEN*/
+
+
+                /*FOOTER*/
+
+footer{
+    padding-top: 10px;
+    margin-top: 34px;
+    background-color: #171717;
+    width: 100%;
+    height:80px;
+}
+
+footer h2{
+    color: #dee3e9;
+    padding: 0;
+    margin: 0;
+}
+
+.fab{
+    color: blue;
+    
+    padding: 5px;
+}
+.fa-whatsapp{
+    color: green;
+    
+}
+                /*FOOTER*/
+
+
+
+                /* colocacion de IMAGENES */
+
+                .grid{
+                    display:grid;
+                    grid-template-columns:repeat(3, 1fr);
+                    gap:2rem;
+                }
+                
+                
+                .producto{
+                    background-color: var(--primarioOscuro);
+                    padding:1rem;
+                   
+                  }
+                
+                 
+                .producto__imagen{
+                    width: 100%;
+                    height: 400px;
+                }
+                
+                
+                
+                  .producto__nombre{
+                            font-size:4rem;
+                  }
+                
+                  .producto__precio{
+                    font-size:2.8rem;
+                    color:var(--secundario)
+                  } 
+                
+                  .producto__nombre,
+                  .producto__precio{
+                      font-family:var(--fuentePrincipal);
+                      margin: 1rem 0;
+                      text-align: center;
+                  }
+                
+                 .btn {
+                    text-decoration: none;
+                    color: #171717;
+                    background-color: #fcfcfc;
+                   /* border-radius: 120PX 120px 120px 120px;*/
+                   
+                 }
+                 .btn:hover{
+                        background-color: #e3fb0c;
+                 }
+                /* colocacion de IMAGENES */
+
+
+                
+                /*formulario de contacto*/
+
+
+.form{
+    width: 340px;
+    height: 440px;
+    background: rgba(10, 152, 159, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 40px  -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw -40px);
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+    position: relative;
+}
+.raya{
+margin: 10px 0;
+padding-bottom: 10px;
+width: 180px;
+color: grey;
+border-bottom: 3px  solid black ;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "montserrat", sans-serif;
+    border-bottom: 2px solid grey;
+}
+
+input:focus{
+    border-bottom: 2px solid lightblue;
+}
+
+p:before{
+    content:attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: gray;
+}
+
+button{
+    float:right ;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "montserrat", sans-serif;
+    border: 2px solid gray;
+    background: 0;
+    color: black;
+    cursor: pointer;
+    transition: all .3s;
+}
+button:hover{
+background: gray;
+color: white;
+}
+.formulario{
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background: black;
+    color: white;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+}
+
+.enviar{
+    border: solid black 5px;
+    cursor: pointer;
+}
+
+.fa-envelope--0 {
+    color: #e3fb0c;
+}
+/*formulario de contacto*/
